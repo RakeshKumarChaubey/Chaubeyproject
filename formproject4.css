@@ -1,0 +1,81 @@
+body{
+
+    background-image: linear-gradient(pink,lightblue,green);
+    background-size:100% 150%;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+    margin-left: 100px;
+    overflow: scroll;
+}
+.row{
+border: 1px solid red;
+display: inline-block;
+border-style: none;
+  color:white;
+  background-color: green;
+  border-radius: 10px;
+  background-size: 10% 10%;
+  text-align: center;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: -2s;
+  animation-iteration-count:infinite;
+   
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.formpage{
+
+    margin-left:40%;
+    margin-right: 100px;
+    margin-top: -170px;
+  background-color: aquamarine;
+    
+    padding-left: 30px;
+    padding-top: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: -2s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+.submit{
+
+    margin-bottom: 15px;
+  margin-left: 110px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: chocolate;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count:infinite;
+  
+
+}
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+.submit:hover{
+
+    background-color: blue;
+    color: white;
+}
